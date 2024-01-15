@@ -78,7 +78,7 @@ const Hero = () => {
 
 
     <div class="mt-5 max-w-2xl text-center mx-auto">
-      <h1 class="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-gray-200">
+      <h1 id='FirstH1' class="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-gray-200">
         Let's Chat
         <span class="bg-clip-text bg-gradient-to-tl bg-[#49B5BB] text-transparent">Together</span>
       </h1>
