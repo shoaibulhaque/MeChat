@@ -49,7 +49,7 @@ module.exports.userRegister = (req, res) => {
             const newImageName = randNumber + getImageName;
             files.image.originalFilename = newImageName;
 
-            const newPath = `/home/shoaib/Desktop/udemy/messenger-chat-application/frontend/public/image/${files.image.originalFilename}`;
+            const newPath = `/home/shoaib/Desktop/MeChat/frontend/public/image/${files.image.originalFilename}`;
 
 
             

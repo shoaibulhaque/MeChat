@@ -158,7 +158,7 @@ module.exports.ImageMessageSend = (req,res) => {
               imageName 
           } = fields;
 
-          const newPath = `/home/shoaib/Desktop/udemy/messenger-chat-application/frontend/public/image/${imageName}`;
+          const newPath = `/home/shoaib/Desktop/MeChat/frontend/public/image/${imageName}`;
           files.image.originalFilename = imageName;
 
           try{
