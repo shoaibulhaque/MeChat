@@ -69,6 +69,7 @@
                          display: flex;
                          position: relative;
                          .theme_logout.show{
+                            z-index: 2;
                              transform: scale(1);
                          }
                          .theme_logout{
