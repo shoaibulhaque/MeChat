@@ -5,9 +5,15 @@
 }
 
 .message-send-section{
-     position: relative;
+    margin-top: 2rem;
+    max-width: 40rem;
+    width: 100%;
+     position: absolute;
+     bottom: 0;
      display: flex;
      justify-content: space-between;
+     right: 50%;
+     transform: translateX(50%);
      align-items: center;
      padding: 5px;
      .file{

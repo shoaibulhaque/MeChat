@@ -13,9 +13,11 @@
              .col-8{
                  transition: all .5s;
                  .message-send-show{
+                    position: relative;
                      height: 90vh;
                      border-right: 1px solid var(--border-color);
                      display: flex;
+                     overflow: auto;
                      padding-bottom: 10px;
                      flex-direction: column;
                      justify-content: space-between;
